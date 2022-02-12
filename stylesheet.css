@@ -1,0 +1,64 @@
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 300;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+.start-game {
+    height: 150px;
+    margin: 0;
+    background-color: darkorange;
+}
+
+.hall {
+    height: 400px;
+    width: 1000px;
+    border: 3;
+    background-color: aqua;
+    margin: auto;
+    flex-direction:row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+#door1 {
+    background-color: burlywood;
+    height: 350px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+}
+
+#door2 {
+    background-color: darkcyan;
+    height: 350px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+}
+#door3 {
+    background-color: darkkhaki;
+    height: 350px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#d1{
+    display: none;
+}
+#d2{
+    display: none;
+}
+#d3 {
+    display: none;
+}
+#scoreboard {
+    background-color: grey;
+}

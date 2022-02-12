@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    <body>
+        <h1>Monty Hall Game!</h1>
+        <div class = "start-game">
+            <p>enter the hall</p>
+            <div id ="scoreboard">scoreboard</div>
+        </div>
+        <div class = "hall">
+            <div id = "door1">
+                <p><button onclick="handleClick(1)">door1</button>
+                </p>
+                <img id="d1" src="goat.png">
+            </div>
+            <div id = "door2">
+                <p><button onclick="handleClick(2)">door2</button></p>
+                <img id="d2" src="goat.png">
+            </div>
+            <div id = "door3">
+                <p><button onclick="handleClick(3)">door3</button></p>
+                <img id="d3" src="car.png">
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
