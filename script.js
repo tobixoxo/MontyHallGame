@@ -2,6 +2,10 @@ let click =0;
 let visited = [0,0,0]; 
 let prize = 3;
 let handleClick = function(door) {
+    if(visited[door - 1] == 1){
+        window.alert("door already opened!");
+        return;
+    }
     click++;
     if(click == 2){
         if(door == prize){
@@ -13,7 +17,6 @@ let handleClick = function(door) {
     }
     let otherDoor;
     while(true){
-        
         let x = Math.floor(Math.random() * 4) ;
         console.log("x is ", x," and clicks ",click," visted :", visited)
         if(click >= 3) return;
